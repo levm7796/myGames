@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@600&family=Permanent+Marker&display=swap');
+html {
+    overflow:  hidden;
+}
+
+body {
+    background: url(../img/brownf.jpg) no-repeat;
+    background-size: 100%;
+    margin: 0;
+}
+
+.but {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: -200px;
+}
+.butx {
+    width: 100px;
+    height: 100px;
+    background: rgba(0, 0, 0, .2);
+}
+
+.bud1 {
+    position: relative;
+    top: 200px;
+    left: 500px;
+}
+.bud2 {
+    position: relative;
+    top: 300px;
+    left: 200px;
+}
+.bud3 {
+    position: relative;
+    top: 400px;
+    left: -100px;
+}
+
+.level {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    transition: 0.2s;
+}
+
+.level:active {
+    background: black;
+    box-shadow: 0 3px black inset;
+}
+
+.levelbut {
+    width: 300px;
+    height: 50px;
+    position: relative;
+    top: 220px;
+    left: 500px;
+}
+
+.easy {
+    background: rgb(64,199,129);
+}
+
+.normal {
+    background: rgb(242, 200, 8);
+}
+
+
+.hard {
+    background: rgb(213, 0, 13);
+}
+
+.ultraHard {
+    background: rgb(61, 0, 0);
+}
+
+.mode {
+    background: dimgray;
+    position: relative;
+    top: -200px;
+}
+
+.modee {
+    padding-bottom: 1px;
+}
+
+.hr {
+    position: relative;
+    top: 70px;
+
+}
+.topLogo {
+    height: 40px;
+    width: 60px;
+    position: relative;
+    left: 10px;
+}
+
+.topText {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 80px;
+    position: relative;
+    left: 500px;
+    top: -85px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropbtn {
+    height: 50px;
+    width: 60px;
+    position: relative;
+    top: -165px;
+    left: 1450px;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background: rgba(0 ,0, 0, .2);
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    top: -115px;
+    left: 1300px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #B6B6B6;}
+.dropdown:hover .dropdown-content {display: block;}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.block {
+    display: inline-block;
+    position: absolute;
+    height: 0px;
+    width: 0px;
+}
+
+.points {
+    position: relative;
+    top: -100px;
+    left: 600px;
+    font-size: 50px;
+    height: 50px;
+    width: 100px;
+    background: rgba(0 ,0, 0, 0);
+    text-align: center;
+    border: 2px solid black;
+}

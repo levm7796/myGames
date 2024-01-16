@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+html {
+    overflow:  hidden;
+}
+
+body {
+    background: url(../img/brownf.jpg) no-repeat;
+    background-size: 100%;
+    margin: 0;
+}
+hr {
+    position: relative;
+    top: 70px;
+}
+.table1 {
+    position: relative;
+    top: 0;
+    left: 517px;
+    height: 320px;
+    width: 10px;
+    background-color: black;
+}
+.table {
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+}
+.table3 {
+    position: relative;
+    height: 10px;
+    width: 323px;
+    background-color: black;
+    top: 99px;
+    left: 397px;
+}
+
+.table4 {
+    position: relative;
+    height: 10px;
+    width: 323px;
+    background-color: black;
+    top: 209px;
+    left: 74px;
+}
+
+.table2 {
+    position: relative;
+    top: 0px;
+    left: 620px;
+    height: 320px;
+    width: 10px;
+    background-color: black;
+}
+
+.butt {
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.but5 {
+    position: relative;
+    top: -320px;
+    left: 1px;
+}
+
+.but6 {
+    position: relative;
+    top: -100px;
+    left: 9px;
+}
+
+.but4 {
+    position: relative;
+    top: -320px;
+    left: 328px;
+}
+
+.but3 {
+    position: relative;
+    top: -211px;
+    left: 321px;
+}
+
+.but2 {
+    position: relative;
+    top: -211px;
+    left: 313px;
+}
+
+.but7 {
+    position: relative;
+    top: -320px;
+    left: -95px;
+}
+
+.but8 {
+    position: relative;
+    top: -211px;
+    left: -88px;
+}
+
+.but1 {
+    position: relative;
+    top: -100px;
+    left: 417px;
+}
+
+.but9 {
+    position: relative;
+    top: -100px;
+    left: -192px;
+}
+
+.topLogo {
+    height: 40px;
+    width: 60px;
+    position: relative;
+    left: 10px;
+}
+
+.topText {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 80px;
+    position: relative;
+    left: 500px;
+    top: -85px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+}
+
+.dropbtn {
+    height: 50px;
+    width: 60px;
+    position: relative;
+    top: -165px;
+    left: 1450px;
+    margin: 0px;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background: rgba(0 ,0, 0, .2);
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    top: -170px;
+    left: 1400px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #B6B6B6;}
+.dropdown:hover .dropdown-content {display: block;}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.ttt {
+    position: relative;
+    left: 100px;
+}
+
+.restartA {
+    position: relative;
+    top: -610px;
+    left: 1430px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Edu SA Beginner', cursive;
+}
+
+.block {
+    display: inline-block;
+    position: absolute;
+    height: 0px;
+    width: 0px;
+}

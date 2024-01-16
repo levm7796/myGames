@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@600&display=swap');
+html {
+    overflow:  hidden;
+}
+
+body {
+    background: url(../img/brownf.jpg) no-repeat;
+    background-size: 100%;
+    margin: 0;
+}
+.startBut {
+    background: green;
+    padding: 5px;
+    position: relative;
+    top: -249px;
+    left: 521px;
+    height: 50px;
+    width: 100px;
+    font-size: 18px;
+}
+.level {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    transition: 0.2s;
+}
+
+.level:active {
+    background: black;
+    box-shadow: 0 3px black inset;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 500px;
+    height: 300px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 50px;
+    text-align: center;
+    background: rgba(0, 0, 0, .2)
+}
+
+.hr {
+    position: relative;
+    top: 70px;
+
+}
+.topLogo {
+    height: 40px;
+    width: 60px;
+    position: relative;
+    left: 10px;
+}
+
+.topText {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 80px;
+    position: relative;
+    left: 500px;
+    top: -85px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+}
+
+.dropbtn {
+    height: 50px;
+    width: 60px;
+    position: relative;
+    top: -165px;
+    left: 1450px;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background: rgba(0 ,0, 0, .2);
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    top: -170px;
+    left: 1400px;
+    margin-bottom: 0px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #B6B6B6;}
+.dropdown:hover .dropdown-content {display: block;}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.restartA {
+    position: relative;
+    top: -590px;
+    left: 1445px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Edu SA Beginner', cursive;
+}
+
+.block {
+    display: inline-block;
+    position: absolute;
+    height: 0px;
+    width: 0px;
+}
+
+.jackpot {
+    position: relative;
+    top: -50px;
+    color: red;
+}
